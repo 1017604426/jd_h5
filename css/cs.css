@@ -1,0 +1,8 @@
+.anli::after{
+    content: "";
+    position: absolute;
+    border-right: 1px solid black;
+    top: 0;
+    left: 26px;
+    height: 16px;
+}

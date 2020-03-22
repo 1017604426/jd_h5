@@ -1,0 +1,76 @@
+html,
+body,
+ul,
+li,
+img,
+a,
+p,
+div,
+form,
+input,
+h1,
+h2,h3,h4.h5{
+    padding: 0;
+    margin: 0;
+    /*设置盒模型*/
+    box-sizing: border-box;
+    /*不会随着padding和boder的加入而增大盒子的占用空间*/
+    /*去除移动端特有的点击高亮效果*/
+    -webkit-tap-highligh-color: transparent;
+}
+
+body {
+    font-family: "微软雅黑", sans-serif;
+    font-size: 12px;
+}
+
+a,
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+html{
+    font-size: 12px;
+}
+
+/*新增常用样式*/
+
+.lf {
+    float: left;
+}
+
+.rf {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+.magin_left{
+    margin-left: 10px;
+}
+.magin_right{
+    margin-right: 10px;
+}
+.magin_top{
+    margin-top: 10px;
+}
+.magin_bottom{
+    margin-bottom: 10px;
+}
+.clearfix::before,
+.clearfix::after{
+    content:"";
+    display:block;
+    height:0;
+    line-height:0px;
+    clear:both;
+    visibility:hidden;
+}
+
+
